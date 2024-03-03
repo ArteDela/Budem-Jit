@@ -18,19 +18,19 @@
 		</a>
 				<ul class="_header__list header__list">
 					<li class="header__item">
-						<a href="#" class="header__link">О нас</a>
+						<a href="#about-us" class="header__link">О нас</a>
 					</li>
 					<li class="header__item">
-						<a href="#" class="header__link">Наши проекты</a>
+						<a href="#projects" class="header__link">Проекты</a>
 					</li>
 					<li class="header__item">
-						<a href="#" class="header__link">Взаимодействие</a>
+						<a href="#interaction" class="header__link">Взаимодействие</a>
 					</li>
 					<li class="header__item">
-						<a href="#" class="header__link">Новости</a>
+						<a href="#news" class="header__link">Новости</a>
 					</li>
 					<li class="header__item">
-						<a href="#" class="header__link">Контакты</a>
+						<a href="#interaction" class="header__link">Контакты</a>
 					</li>
 				</ul>
 				<div class="header__burger" onclick="mainObject.header.show(this)">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="about-us container">
+			<section class="about-us container" id="about-us">
 				<h2 class="about-us__title g-sub-title">О нас</h2>
 				<p class="about-us__text">
 					Благотворительный фонд <span>«Будем жить!»</span> создан инициативной группой родственников воинов, погибших в зоне проведения СВО.
@@ -124,8 +124,8 @@
 						<img src="image/arrow.png" alt="">
 					</div>
 				</div>
-			</div>
-			<div class="projects container">
+			</section>
+			<section class="projects container" id="projects">
 				<h2 class="projects__title g-sub-title">Проекты</h2>
 				<div class="projects__slider _projects__slider swiper">
 					<div class="projects__slider-wrap swiper-wrapper">
@@ -228,7 +228,7 @@
 						<img src="image/arrow.png" alt="">
 					</div>
 				</div>
-			</div>
+			</section>
 			<div class="donations container">
 				<h2 class="g-sub-title donations__title">Пожертвования принимаются по оплате через QR-код</h2>
 				<p class="donations__text">
@@ -236,7 +236,7 @@
 				</p>
 				<img src="image/qr.png" alt="">
 			</div>
-			<div class="interaction container">
+			<section class="interaction container" id="interaction">
 				<h2 class="g-sub-title interaction__title">Взаимодействие</h2>
 				<p class="interaction__text">
 					Фонд активно взаимодействует с государственными структурами и некоммерческими организациями.
@@ -261,8 +261,8 @@
 					</div>
 					<div class="swiper-pagination about-us__pagination"></div>
 				</div>
-			</div>
-			<div class="news container ">
+			</section>
+			<section class="news container " id="news">
 				<div class="news__slider _news__slider swiper">
 					<div class="news__wrap swiper-wrapper">
 						<div class="news__item swiper-slide">
@@ -320,7 +320,7 @@
 					</div>
 					<div class="swiper-pagination about-us__pagination"></div>
 				</div>
-			</div>
+			</section>
 		</main>
 		<footer>
 			<div class="container footer__wr">
@@ -330,13 +330,13 @@
 						<div class="footer__item-flex g-flex">
 							<div>
 								<div class="footer__item-wr">
-									<a href="#">
+									<a href="tel:+79194210236">
 								<span>Телефон:</span>
 								<span>+79194210236</span>
 							</a>
 								</div>
 								<div class="footer__item-wr">
-									<a href="#">
+									<a href="mailto:fond.budemzhit@mail.ru">
 								<span>Почта:</span>
 								<span>fond.budemzhit@mail.ru</span>
 							</a>
@@ -350,15 +350,15 @@
 				</div>
 				<div class="footer__item">
 					<div>Соц Сети</div>
-					<a href="#">VK</a>
-					<a href="#">Telegram</a>
+					<a href="https://vk.com/bubemzhit2023">VK</a>
+					<a href="https://t.me/bfbudemzhit">Telegram</a>
 				</div>
 				<div class="footer__item">
-					<a href="#">О нас</a>
-					<a href="#">Наши проекты</a>
-					<a href="#">Взаимодействие</a>
-					<a href="#">Новости</a>
-					<a href="#">Контакты</a>
+					<a href="#about-us">О нас</a>
+					<a href="#projects">Наши проекты</a>
+					<a href="#interaction">Взаимодействие</a>
+					<a href="#news">Новости</a>
+					<a href="#interaction">Контакты</a>
 				</div>
 			</div>
 		</footer>
