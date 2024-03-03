@@ -1,0 +1,16 @@
+/* базовые стили */
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/default';
+/* стили компонентов */
+
+/* Пример подключения*/
+/* @import 'components/component/component'; */
+@import 'components/header/header';
+@import 'components/management/management';
+@import 'components/about-us/about-us';
+@import 'components/projects/projects';
+@import 'components/donations/donations';
+@import 'components/interaction/interaction';
+@import 'components/news/news';
+@import 'components/footer/footer';

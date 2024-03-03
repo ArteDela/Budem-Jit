@@ -1,0 +1,29 @@
+.donations
+{
+	text-align: center;	
+	margin-bottom: 40px;
+}
+.donations__title
+{
+	margin-bottom: 15px;
+}
+.donations__text
+{
+	color: rgba(54, 56, 76, 1);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+@media(max-width: 750px)
+{
+	.donations
+	{
+		margin-bottom: 20px;
+	}
+	.donations__text
+	{
+		font-size: 16px;
+		line-height: 20px;
+	}
+}

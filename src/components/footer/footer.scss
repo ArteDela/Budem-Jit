@@ -1,0 +1,30 @@
+.footer__wr
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	a
+	{
+		display: block;
+		color: rgba(255, 255, 255, 1);
+		margin-bottom: 10px;
+	}
+	div
+	{
+		margin-bottom: 10px;	
+	}
+}
+@media(max-width: 900px)
+{
+	.footer__wr
+	{
+		display: block;
+	}
+}
+@media(max-width: 600px)
+{
+	footer
+	{
+		font-size: 14px;
+	}
+}
