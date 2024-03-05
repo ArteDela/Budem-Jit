@@ -20,8 +20,6 @@
 }
 .manager__title
 {
-	font-family: $main-font-bold;
-	font-weight: 900;
 	font-size: 18px;
 	line-height: 21px;
 	margin-bottom: 10px;
@@ -31,6 +29,8 @@
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 27px;
+	font-family: $main-font-bold;
+	font-weight: 900;
 }
 .managment__title
 {
@@ -65,7 +65,8 @@
 		{
 			font-size: 17px;
 			margin-bottom: 2px;
-			line-height: 19.92px;	
+			line-height: 19.92px;
+			font-weight: 300;	
 		}
 		.managment__descr
 		{
@@ -77,5 +78,20 @@
 	.management__list
 	{
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+	.management__item
+	{
+		&:first-child
+		{
+			order: 2;
+		}
+		&:nth-child(2)
+		{
+			order: 1;
+		}
+		&:last-child
+		{
+			order: 3;
+		}
 	}
 }
