@@ -67,6 +67,20 @@ footer
 	line-height: 35px;
 	color: rgba(54, 56, 76, 1);
 }
+.index-return
+{
+	position: fixed;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 10px;
+	border-radius: 10px;
+	right: 20px;
+	bottom: 20px;
+	background: #36384c;
+	color: white;
+	z-index: 2000;
+	cursor: pointer;
+}
 @media(max-width: 750px)
 {
 	.g-sub-title
@@ -74,5 +88,9 @@ footer
 		font-size: 23px;
 		font-weight: 500;
 		line-height: 27px;
-	}	
+	}
+	.index-return
+	{
+		display: none;
+	}
 }

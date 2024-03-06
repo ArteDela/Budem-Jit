@@ -11,5 +11,13 @@ const mainObject =
 		this.projects.initSlider()
 		this.interaction.initSlider()
 		this.news.initSlider()
+	},
+	scrollUp()
+	{
+		window.scrollTo(
+		{
+			top: 0,
+			behavior: "smooth",
+		});
 	}
 }
